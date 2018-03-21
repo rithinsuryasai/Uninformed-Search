@@ -1,0 +1,58 @@
+
+NAME: RITHIN SURYA SAINADH GADAPA
+UTA-ID:1001565680
+
+
+PR0GRAMMING LANGUAGE USED: JAVA
+DEVELOPED ON ECLIPSE IDE AND SUCCESSFULLY TESTED ON OMEGA: WORKING
+
+
+CODE STRUCTURE:
+
+The package map contains 4 java files: map2.java,make.java, Milescomparator, getsucc.java
+
+map2.java: It contains the main function and the functionality
+make.java: to create the nodes we use this class
+Milescomparator.java: To prioritize based on the pathcosts of the nodes in priority queue
+getsucc.java: returns the hashmap like key:index of the arraylists and value the state node
+
+The algorithms of treesearch and graph search with priority queue are strictly followed by the code structure and can be compared 
+http://omega.uta.edu/~gopikrishnav/classes/common/4308_5360/slides/chapter03.pdf
+
+
+
+
+HOW TO RUN:
+1) In the map package go to 'src' then 'map' folder.
+2)compile all the files by using the command:: javac *.java
+3)then Copy the "input.txt" file to src
+4)execute the command:: (java map.map2 input.txt source destination) from the src folder
+5)output as expected.
+
+
+
+
+
+
+Refernces:(citations)
+SIMILAR IMPLEMENTATION FOUND:
+http://omega.uta.edu/~gopikrishnav/classes/common/4308_5360/slides/chapter03.pdf
+https://stackoverflow.com/questions/46132592/java-uniform-cost-search-implementation-with-txt-file-input
+https://www.codeproject.com/Articles/203828/AI-Simple-Implementation-of-Uninformed-Search-Stra
+PrintPath function code from:
+https://github.com/raymondchua/algorithms/blob/master/UniformCostSearchAlgo.java
+
+https://www.codeproject.com/Articles/203828/AI-Simple-Implementation-of-Uninformed-Search-Stra
+https://github.com/jeremypchen/uniform-cost-search/blob/master/src/uniformCostSearch/UniformCostSearch.java
+https://github.com/moment-of-peace/AI-uniform-cost-search/blob/master/src/assignment/MyNavigator.java
+https://stackoverflow.com/questions/9265719/print-arraylist
+https://stackoverflow.com/questions/683041/how-do-i-use-a-priorityqueue
+https://coderanch.com/t/608503/java/comparator-sort-priority-queue
+https://www.journaldev.com/1642/java-priority-queue-priorityqueue-example
+https://www.geeksforgeeks.org/priority-queue-class-in-java-2/
+http://www.rgagnon.com/javadetails/java-0603.html
+https://www.quora.com/How-do-I-display-all-the-elements-in-ArrayList-in-Java-using-loop
+https://docs.oracle.com/javase/7/docs/api/java/util/PriorityQueue.html
+https://stackoverflow.com/questions/20635394/uniform-cost-search-implementation
+http://www.careerbless.com/samplecodes/java/beginners/collections_ds/inertandretrieveMap.php
+https://www.geeksforgeeks.org/set-in-java/
