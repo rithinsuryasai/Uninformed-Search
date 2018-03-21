@@ -5,6 +5,19 @@ NAME: RITHIN SURYA SAINADH GADAPA
 PR0GRAMMING LANGUAGE USED: JAVA
 
 
+1)The program will compute a route between the origin city and the destination city, and will print out both the length of the route and the list of all cities that lie on that route. For example,
+
+find_route input1.txt Bremen Frankfurt
+
+distance: 455 km
+route: 
+Bremen to Dortmund, 234 km 
+Dortmund to Frankfurt, 221 km 
+2)The program always finds a route between the origin and the destination, as long as such a route exists.
+3)The program terminates and reports that no route can be found when indeed no route exists that connects source and destination
+4)The program always returns optimal routes. In other words, no shorter route exists than the one reported by the program.
+5)The algorithm is designed to find various routes between the source and destination and optimal route among them.
+
 CODE STRUCTURE:
 
 The package map contains 4 java files: map2.java,make.java, Milescomparator, getsucc.java
